@@ -1,0 +1,29 @@
+NAME
+    Alien::Debian::Apt - install bundled apt-pm apt-cpan apt-pm-web
+    dh-make-pm cpan-patches dpkg-scanpmpackages
+
+SYNOPSIS
+    See:
+
+    http://search.cpan.org/perldoc?apt-cpan
+    http://search.cpan.org/perldoc?apt-pm
+    http://search.cpan.org/perldoc?apt-pm-web
+    http://search.cpan.org/perldoc?dh-make-pm
+    http://search.cpan.org/perldoc?cpan-patches
+    http://search.cpan.org/perldoc?dpkg-scanpmpackages
+
+DESCRIPTION
+            pp -M Moose::Meta::Object::Trait -M Package::Stash::XS \
+                    -o alien-debian-apt \
+                    apt-pm apt-cpan apt-pm-web dh-make-pm cpan-patches dpkg-scanpmpackages
+
+AUTHOR
+    Jozef Kutej
+
+COPYRIGHT AND LICENSE
+    Copyright 2011 by Jozef Kutej
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.6 or, at your
+    option, any later version of Perl 5 you may have available.
+

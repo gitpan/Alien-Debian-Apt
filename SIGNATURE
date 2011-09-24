@@ -1,0 +1,35 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 43e0a7551f81c494b8b68053802129700c1bc7b6 Build.PL
+SHA1 6041842e8512fd7444f55de23b7fd36b53c11a5a Changes
+SHA1 b951dc464db994f67de15506e6b06fedca2722a1 MANIFEST
+SHA1 e5a8c403968e25f53ccf69e6ab119a2000e1a3d2 META.json
+SHA1 158f2c616cd8b447eb662acf568d7cd6cc2ee2dd META.yml
+SHA1 f72149c63825ecdd19aeeb1945066348048d22aa README
+SHA1 c5a859058a76f1273b7db913ae87ed9b2ce2dfa7 lib/Alien/Debian/Apt.pm
+SHA1 c6fe83de884e46dbb07070196d97c40f05c26d25 script/alien-debian-apt
+SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 9b722506424dc5ac817f2d47bc735d4ad3378d4e t/pod-spell.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk5+M1cACgkQC0OgUPgL2SdngACeO4oh/GIKC/UKm3lyzX1JgLVr
+hA4An28Jdg6rijO780tKsL4Gsbg4RpTU
+=O6EJ
+-----END PGP SIGNATURE-----
